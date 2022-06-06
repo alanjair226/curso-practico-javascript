@@ -12,6 +12,7 @@ form{
     width: 80%;
     height: 30vh;
     margin: auto;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     background-color: rgb(89, 181, 204);
