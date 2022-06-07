@@ -1,4 +1,13 @@
-body{
+.container{
     display:flex;
-    flex-direction: row;
+    flex-direction: row; 
+    height: 80vh;
+    align-items: center;
+}
+form{
+    margin: 2%;
+}
+
+.container-fig{
+    width: 33.33%;
 }

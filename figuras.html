@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
     <link href="Styles/Movile.css" rel="stylesheet" media="screen and (min-width: 425px)">
-    <link href="styles/Tablet.css" rel="stylesheet" media="screen and (min-width: 900px)">
-    <link href="styles/Desktop.css" rel="stylesheet" media="screen and (min-width: 1100px)">
+    <link href="styles/Tablet.css" rel="stylesheet" media="screen and (min-width: 800px)">
+    <link href="styles/Desktop.css" rel="stylesheet" media="screen and (min-width: 900px)">
     <title>Figuras curso platzi</title>
 </head>
 <body>
@@ -15,35 +15,44 @@
 
      <script src="./figuras.js"></script>
 
-     <form class="cuadrado">
+     <header>
+            
+        <div class="phrase"><h1>&nbsp AREAS &nbspPERIMETROS</h1></div>
+        <!--<div id="contact">CONTACT US:    tiquitos_cars@gmail.com<br><br><br>PHONE:    449-123-45-67</div>-->
+        
+    </header>
 
-        <label>
-            <span>Ingrese la medida de los lados de su cuadrado: </span>
+    <div class="container">
+
+       <form class="container-fig">
+
+            <label>Ingrese la medida de los lados de su cuadrado:</label>
             <input type="number" id="inputSide">
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
-        </label>
+            <button type="button" onclick="calcularAreaCuadrado()"> Calcular area y perimetro</button>
 
-     </form>
+        </form>
 
-     <form>
+        <form class="container-fig">
 
-        <label>
-            <span>Ingrese la medida de los lados de su cuadrado: </span>
+            <label>Ingrese la medida de la altura del triangulo: </label>
+            <input type="number" id="inputHeight">
+            <label>Ingrese la medida de la base del triangulo: </label>
+            <input type="number" id="inputBase">
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular area y perimetro</button>
+            
+
+        </form>
+
+        <form class="container-fig">
+
+            <label>Ingrese la medida del radio del circulo: </label>
             <input type="number" id="inputSide">
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
-        </label>
+            <button type="button" onclick="calcularAreaCuadrado()">Calcular area y perimetro</button>
+            
 
-     </form>
+        </form>
 
-     <form>
-
-        <label>
-            <span>Ingrese la medida de los lados de su cuadrado: </span>
-            <input type="number" id="inputSide">
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
-        </label>
-
-     </form>
+    </div>
     
 </body>
 </html>
