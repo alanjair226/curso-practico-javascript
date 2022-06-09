@@ -28,27 +28,38 @@
 
             <label>Ingrese la medida de los lados de su cuadrado:</label>
             <input type="number" id="inputSide">
-            <button type="button" onclick="calcularAreaCuadrado()"> Calcular area y perimetro</button>
-
+            <label class="resoult" id="resSquarep"></label>
+            <label class="resoult" id="resSquarea"></label>
+            <button type="button" onclick="calcularCuadrado()"> Calcular area y perimetro </button>
         </form>
 
         <form class="container-fig">
 
-            <label>Ingrese la medida de la altura del triangulo: </label>
+            <label>Altura del triangulo: </label>
             <input type="number" id="inputHeight">
-            <label>Ingrese la medida de la base del triangulo: </label>
+            <label>Base del triangulo: </label>
             <input type="number" id="inputBase">
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular area y perimetro</button>
-            
+            <div class="ts-container">
+                <label>Lado 1: </label>
+                <label>Lado 2: </label>
+                <label>Lado 3: </label>                
+                <input class="TriangleSide"type="number" id="ts1">
+                <input class="TriangleSide" type="number" id="ts2">
+                <input class="TriangleSide" type="number" id="ts3">
+            </div>
+            <label class="resoult" id="resTrianglep"></label>      
+            <label class="resoult" id="resTrianglea"></label>      
+            <button type="button" onclick="calcularTriangulo()">Calcular area y perimetro</button>          
 
         </form>
 
         <form class="container-fig">
 
             <label>Ingrese la medida del radio del circulo: </label>
-            <input type="number" id="inputSide">
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular area y perimetro</button>
-            
+            <input type="number" id="inputRadio">
+            <label class="resoult" id="resCirclep"></label>
+            <label class="resoult" id="resCirclea"></label>
+            <button type="button" onclick="calcularCirculo()">Calcular area y perimetro</button>
 
         </form>
 
