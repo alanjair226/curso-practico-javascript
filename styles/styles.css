@@ -9,6 +9,7 @@ html{
 body{
     display:flex;
     flex-direction: column;  
+    font-family: "Montserrat", Helvetica, sans-serif, Arial;
 }
 
 header{
@@ -33,7 +34,12 @@ header{
     flex-direction: column; 
 }
 
+.container-fig:hover{
+    background-image: radial-gradient(circle at 22.14% 89.79%, #b3dcfa 0, #7dbeef 25%, #31a0e3 50%, #0082d7 75%, #0067cb 100%);
+}
+
 .container-fig{
+    color: rgb(255, 255, 255);
     padding: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -57,11 +63,11 @@ header{
 }
 
 form * {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 form button {
-    width: 50%;
-    height: 7vh;
+    width: 70%;
+    height: 8vh;
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
@@ -75,11 +81,33 @@ form input{
     text-align: center;
     border: solid 0px;
     border-bottom: solid rgb(47, 47, 198) .3rem;
-    background-color: rgb(70, 162, 185);
-    outline: none;  
+    background-color: transparent;
+    outline: none; 
+
 }
+
+
 
 .resoult{
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.radiance {
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+.radiance:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 .5rem 2rem rgb(47, 47, 198);
+    transition: all 0.2s ease;
+}
+.radiance:active {
+    color:rgb(255, 255, 255);
+    box-shadow: 0 .2rem 1rem rgb(67, 142, 212);
 }
